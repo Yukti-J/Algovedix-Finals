@@ -59,6 +59,10 @@ class LoginActivity : AppCompatActivity() {
         //before Logging in validate data
             validateData()
         }
+        binding.btnToPhyLogin.setOnClickListener {
+            intent= Intent(this,PhysicianActivity::class.java)
+            startActivity(intent)
+        }
 
     }
 
@@ -115,7 +119,5 @@ class LoginActivity : AppCompatActivity() {
             finish()
         }
     }
-
-
 }
 

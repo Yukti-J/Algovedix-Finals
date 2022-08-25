@@ -7,11 +7,13 @@
         <entry key="..\:/AlgoVedix/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
         <entry key="..\:/AlgoVedix/app/src/main/res/layout/activity_my_intro.xml" value="0.23645833333333333" />
         <entry key="..\:/AlgoVedix/app/src/main/res/layout/activity_my_profile.xml" value="0.23645833333333333" />
-        <entry key="..\:/AlgoVedix/app/src/main/res/layout/activity_physician_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/AlgoVedix/app/src/main/res/layout/activity_physician.xml" value="0.18125" />
+        <entry key="..\:/AlgoVedix/app/src/main/res/layout/activity_physician_login.xml" value="0.264" />
+        <entry key="..\:/AlgoVedix/app/src/main/res/layout/activity_physician_page.xml" value="0.152" />
         <entry key="..\:/AlgoVedix/app/src/main/res/layout/activity_questions_pane.xml" value="0.23645833333333333" />
         <entry key="..\:/AlgoVedix/app/src/main/res/layout/activity_sign_up.xml" value="0.22826086956521738" />
         <entry key="..\:/AlgoVedix/app/src/main/res/layout/fragment_dashboard.xml" value="0.203125" />
-        <entry key="..\:/AlgoVedix/app/src/main/res/layout/login.xml" value="0.1" />
+        <entry key="..\:/AlgoVedix/app/src/main/res/layout/login.xml" value="0.176" />
         <entry key="..\:/Users/my pc/AndroidStudioProjects/AlgovedixNew/app/src/main/res/drawable-anydpi/ic_dashboard.xml" value="0.168" />
         <entry key="..\:/Users/my pc/AndroidStudioProjects/AlgovedixNew/app/src/main/res/drawable/circle.xml" value="0.157" />
         <entry key="..\:/Users/my pc/AndroidStudioProjects/AlgovedixNew/app/src/main/res/drawable/gradient_vaat.xml" value="0.177" />

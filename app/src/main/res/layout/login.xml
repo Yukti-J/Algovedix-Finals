@@ -91,15 +91,23 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/txtForgotPass"
-        android:layout_width="wrap_content"
+
+    <Button
+        android:id="@+id/btnToPhyLogin"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/btnLogIn"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/rounded_corner"
+        android:backgroundTint="#8C3FFF00"
         android:padding="6dp"
-        android:text="Forgot Password?"
+        android:text="Login as Physician"
         android:textColor="#FF000000"
         android:textSize="18sp"
         android:textStyle="bold" />
@@ -108,9 +116,12 @@
         android:id="@+id/txtRegister"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_below="@+id/btnToPhyLogin"
+        android:layout_alignParentEnd="true"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="100dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="170dp"
         android:padding="6sp"
         android:text="Don't have an account?"
         android:textColor="#FF000000"
@@ -120,7 +131,7 @@
         android:id="@+id/btnSignUpOrigional"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/txtForgotPass"
+        android:layout_below="@id/btnToPhyLogin"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="69dp"
         android:layout_marginRight="30dp"
@@ -131,6 +142,4 @@
         android:textColor="@color/black"
         android:textSize="18sp"
         android:textStyle="bold" />
-
-
 </RelativeLayout>
