@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#26F904"
+        android:minHeight="?attr/actionBarSize"
+        android:textAlignment="center"
+
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="100dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logo1_1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/logo_app" />
+
+    android:src="@drawable/logo_app" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quote"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="110dp"
+        />
+
+    <ImageView
+        android:id="@+id/mascot3_1"
+        android:layout_width="169dp"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="322dp"
+        android:src="@drawable/mascot" />
+
+    <TextView
+        android:id="@+id/hi_there_i_"
+        android:layout_width="256dp"
+        android:layout_height="132dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="441dp"
+        android:gravity="top"
+        android:text="Hi Vansh!,
+
+                   How you doing?"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/rectangle_3"
+        android:layout_width="385dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="13dp"
+        android:layout_marginTop="586dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="sans-serif-black"
+        android:text="My Diet Planner"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+
+        />
+
+    <Button
+        android:id="@+id/rectangle_4"
+        android:layout_width="385dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="655dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="sans-serif-black"
+        android:text="My Diet Planner"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

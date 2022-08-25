@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="#26F904"
+        android:minHeight="?attr/actionBarSize"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="100dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Home"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logo1_1"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="491dp"
+        android:src="@drawable/logo_app" />
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/quote" />
+
+    <ImageView
+        android:id="@+id/mascot3_1"
+        android:layout_width="169dp"
+        android:layout_height="190dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="322dp"
+        android:src="@drawable/mascot" />
+
+    <TextView
+        android:id="@+id/hi_there_i_"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="153dp"
+        android:layout_marginTop="450dp"
+        android:gravity="top"
+        android:text="Hi there,
+I’m Vriksha
+Time to know your Prakriti
+
+Proceed to give the test
+"
+        android:textColor="@color/black"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/rectangle_3"
+        android:layout_width="385dp"
+        android:layout_height="77dp"
+        android:layout_alignParentLeft="true"
+        android:backgroundTint="@color/green"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="639dp"
+        android:background="@drawable/rounded_corner"
+        android:fontFamily="sans-serif-condensed"
+        android:text="TAKE TEST"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        android:textStyle="bold"
+
+        />
+
+</RelativeLayout>

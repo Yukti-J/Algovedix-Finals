@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "955489382931",
+    "firebase_url": "https://algovedix-1cf3a-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "algovedix-1cf3a",
+    "storage_bucket": "algovedix-1cf3a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:955489382931:android:24e135459d3c30c63945e6",
+        "android_client_info": {
+          "package_name": "com.vishishta.algovedixnew"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "955489382931-0v8h7hq3tl19quq69p3l52g37emu7nqv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAboVpXB0UZDW2PUtQjUyPLgEsvPHvgci4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "955489382931-0v8h7hq3tl19quq69p3l52g37emu7nqv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

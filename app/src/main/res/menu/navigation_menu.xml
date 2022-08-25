@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/dashboard"
+        android:title="Dashboard"
+        android:icon="@drawable/ic_dashboard"
+        />
+    <item
+        android:id="@+id/calorie_tracker"
+        android:title="Calorie Tracker" />
+    <item
+        android:id="@+id/steps_tracker"
+        android:title="Steps Tracker" />
+    <item
+        android:id="@+id/vedix_store"
+        android:title="Vedix Store"/>
+    <item
+        android:id="@+id/about_us"
+        android:title="About Us"/>
+    </group>
+</menu>

@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VedixFragment">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/vedicstore"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:background="@color/green"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="5dp"
+                    android:text="Vedic Store"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="153dp" />
+
+                <TextView
+                    android:id="@+id/vitamin_supplements"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_alignTop="@+id/vedicstore"
+                    android:layout_marginTop="150dp"
+                    android:background="#88FFA2"
+                    android:fontFamily="sans-serif-condensed"
+                    android:padding="5dp"
+                    android:text="Vitamin Supplements"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:layout_editor_absoluteX="153dp" />
+
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:padding="5dp"
+                    android:layout_alignTop="@+id/vitamin_supplements"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="80dp"
+                    android:background="#D9D9D9"
+                    android:text="Vitamin A"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_alignTop="@+id/vitamin_supplements"
+                    android:layout_marginLeft="250dp"
+                    android:layout_marginTop="80dp"
+                    android:background="#D9D9D9"
+                    android:padding="5dp"
+                    android:text="Vitamin B"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:textAlignment="center"
+                    android:padding="5dp"
+                    android:layout_height="50dp"
+                    android:layout_alignTop="@+id/vitamin_supplements"
+                    android:layout_marginTop="160dp"
+                    android:background="#D9D9D9"
+                    android:text="Vitamin C"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_alignTop="@+id/vitamin_supplements"
+                    android:layout_marginLeft="250dp"
+                    android:padding="5dp"
+                    android:layout_marginTop="160dp"
+                    android:background="#D9D9D9"
+                    android:text="Vitamin D"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/multivitamin"
+                    android:layout_width="200dp"
+                    android:padding="5dp"
+                    android:layout_height="50dp"
+                    android:layout_alignTop="@+id/vitamin_supplements"
+                    android:layout_centerInParent="true"
+                    android:layout_marginTop="230dp"
+                    android:background="#D9D9D9"
+                    android:text="Multi Vitamin"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+
+
+
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@id/multivitamin"
+                android:layout_marginTop="50dp"
+                android:background="#88FFA2"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="5dp"
+                android:text="Proteins"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="153dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@id/multivitamin"
+                android:layout_marginTop="50dp"
+                android:background="#88FFA2"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="5dp"
+                android:text="Carbohydrates"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="153dp" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignTop="@id/multivitamin"
+                android:layout_marginTop="50dp"
+                android:background="#88FFA2"
+                android:fontFamily="sans-serif-condensed"
+                android:padding="5dp"
+                android:text="Minerals"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:layout_editor_absoluteX="153dp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/copyrightalgovedix"
+                android:layout_marginTop="100dp"
+                />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

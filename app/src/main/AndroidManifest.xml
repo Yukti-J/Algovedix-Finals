@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.vishishta.algovedixnew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACTIVITY_RECOGNITION" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/algovedix_app_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/algovedix_app_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AlgovedixNew"
+        tools:targetApi="31">
+        <activity
+            android:name=".PhysicianLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyIntroActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NewActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DietActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ResultsPage"
+            android:exported="false" />
+        <activity
+            android:name=".QuestionsPane"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityTakeTest"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
